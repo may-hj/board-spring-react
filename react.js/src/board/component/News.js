@@ -1,7 +1,6 @@
 import React from 'react'
-import Navbar from 'common/component/Navbar'
-import ArticleList from 'article/component/ArticleList'
-import Footer from 'common/component/Footer'
+import { Navbar,Footer } from 'common/index'
+import { ArticleList }from 'article/index'
 
 const News = () => {
     return(<>

@@ -1,0 +1,5 @@
+export { default as BirdPicture } from 'common/component/BirdPicture'
+export { default as Footer } from 'common/component/Footer'
+export { default as Home } from 'common/component/Home'
+export { default as Navbar } from 'common/component/Navbar'
+export { default as WhoWhatAmI } from 'common/component/WhoWhatAmI'

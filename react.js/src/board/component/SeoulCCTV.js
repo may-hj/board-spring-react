@@ -1,9 +1,8 @@
 import React from 'react'
-import Navbar from 'common/component/Navbar'
-import Footer from 'common/component/Footer'
-import CCTV from 'article/data/CCTV.png'
+import { Navbar,Footer } from 'common/index'
+import CCTV from 'board/data/CCTV.png'
 
-import 'common/style/Common.css'
+import 'article/style/AtricleList.css'
 
 const SeoulCCTV = () => {
     return (<>
@@ -26,7 +25,7 @@ const SeoulCCTV = () => {
                 <td></td>
             </tr>
         </table>
-        <img src = {CCTV} className="CCTV" alt=""/>
+        <img src = {CCTV} className="CCTV" />
         <Footer/>
     </>)
 }
