@@ -1,11 +1,11 @@
 import React from 'react'
 
-import '../../common/style/Common.css'
-import '../style/AtricleList.css'
+import 'common/style/Common.css'
+import 'article/style/AtricleList.css'
 
 const AtricleList = () => {
     return (<>
-        <h2>HTML Table</h2>
+        <h2>Company List</h2>
         <table>
         <tr>
             <th>Company</th>

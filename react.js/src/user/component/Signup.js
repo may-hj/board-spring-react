@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../style/Signup.css'
+import 'user/style/SignUp.css'
 
 const Signup = ()  => {
     return (<>

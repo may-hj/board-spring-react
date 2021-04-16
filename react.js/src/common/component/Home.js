@@ -1,6 +1,6 @@
 import React from 'react'
-import '../style/Home.css'
-import '../style/Common.css'
+import 'common/style/Home.css'
+import 'common/style/Common.css'
 
 import Navbar from './Navbar'
 import WhoWhatAmI from './WhoWhatAmI'

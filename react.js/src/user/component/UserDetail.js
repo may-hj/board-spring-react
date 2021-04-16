@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../style/UserDetail.css'
+import 'user/style/UserDetail.css'
 
 const UserDetail = () => {
     return (<>
