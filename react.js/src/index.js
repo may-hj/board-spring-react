@@ -6,11 +6,11 @@ import Home from './common/component/Home'
 import reportWebVitals from './reportWebVitals';
 import UserDetail from './user/component/UserDetail';
 import Login from './user/component/Login';
-import Signup from './user/component/Signup';
+import SignUp from './user/component/SignUp';
 
 
 ReactDOM.render(
-    <UserDetail />,
+    <App />,
   document.getElementById('root')
 );
 
