@@ -2,7 +2,7 @@ import { Route } from 'react-router-dom'
 
 import 'App.css';
 import { Home } from 'common/index'
-import { News, SeoulCCTV } from 'board/index'
+import { Counter, News, ReduxCounter, SeoulCCTV } from 'board/index'
 import { Login, SignUp, UserDetail } from 'user/index'
 import { ArticleDetail, ArticleList, ArticleUpdate, ArticleWrite } from 'article/index'
 
@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="App">
       <Route exact path='/' component={ Home }/>
+      <Route exact path='/board/counter' component={ Counter }/>
       <Route exact path='/board/news' component={ News }/>
+      <Route exact path='/board/redux-counter' component={ ReduxCounter }/>
       <Route exact path='/article/seoul-cctv' component={ SeoulCCTV }/>
       <Route exact path='/user/login' component={ Login }/>
       <Route exact path='/user/signup' component={ SignUp }/>

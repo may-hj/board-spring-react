@@ -22,6 +22,8 @@ const Navbar = () => {
                 <li><a href="#">WHERE</a></li>
                 <li><Link to="/board/news">NEWS</Link></li>
                 <li><Link to="/article/seoul-cctv">CCTV</Link></li>
+                <li><Link to="/board/counter">Counter</Link></li>
+                <li><Link to="/board/redux-counter">ReduxCounter</Link></li>
             </ul>
             </div>
         </div>
