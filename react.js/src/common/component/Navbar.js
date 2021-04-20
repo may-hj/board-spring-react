@@ -13,17 +13,14 @@ const Navbar = () => {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>                        
             </button>
-            <Link to="/" className="navbar-brand" >Me</Link>
+            <Link to="/" className="navbar-brand" >HOME</Link>
             </div>
             <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav navbar-right">
-                <li><a href="#">WHO</a></li>
-                <li><a href="#">WHAT</a></li>
-                <li><a href="#">WHERE</a></li>
                 <li><Link to="/board/news">NEWS</Link></li>
-                <li><Link to="/article/seoul-cctv">CCTV</Link></li>
-                <li><Link to="/board/counter">Counter</Link></li>
-                <li><Link to="/board/redux-counter">ReduxCounter</Link></li>
+                <li><Link to="/board/seoul-cctv">CCTV</Link></li>
+                <li><Link to="/counter/counter">COUNTER</Link></li>
+                <li><Link to="/counter/redux-counter">REDUX_DOUNTER</Link></li>
             </ul>
             </div>
         </div>

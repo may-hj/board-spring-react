@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux'
+import {createStore, combineReducers} from 'redux'
+import counterReducer from 'counter/reducer/Counter.reducer'
+
 import App from './App';
-import store from 'app/store'
 
 import 'index.css';
+
+const rootReducer = combineReducers({counterReducer})
+const store = createStore(rootReducer)
 
 ReactDOM.render(
   <Provider store={ store }>
