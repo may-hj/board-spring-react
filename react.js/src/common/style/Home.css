@@ -9,12 +9,12 @@ p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 
 .bg-1 { 
-    background-color: #1abc9c; /* Green */
+    background-color: rgb(178, 178, 252); /* Green */
     color: #ffffff;
 }
 
 .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
+    background-color: #a0a0a0; /* Dark Blue */
     color: #ffffff;
 }
 
@@ -24,7 +24,7 @@ p {font-size: 16px;}
 }
 
 .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #363636; /* Black Gray */
     color: #fff;
 }
 

@@ -6,7 +6,7 @@ import 'common/style/Common.css'
 const Navbar = () => {
     return (<>
     <nav className="navbar navbar-default">
-        <div className="container">
+        <div className="navbar_container">
             <div className="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span className="icon-bar"></span>
@@ -21,6 +21,8 @@ const Navbar = () => {
                 <li><Link to="/board/seoul-cctv">CCTV</Link></li>
                 <li><Link to="/counter/counter">COUNTER</Link></li>
                 <li><Link to="/counter/redux-counter">REDUX_DOUNTER</Link></li>
+                <li><Link to="/counter/counter-slice">COUNTER_SLICE</Link></li>
+                <li><Link to="/todos/app">TODO</Link></li>
             </ul>
             </div>
         </div>

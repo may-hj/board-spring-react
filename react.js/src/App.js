@@ -4,7 +4,8 @@ import { Home } from 'common/index'
 import { News, SeoulCCTV } from 'board/index'
 import { Login, SignUp, UserDetail } from 'user/index'
 import { ArticleDetail, ArticleList, ArticleUpdate, ArticleWrite } from 'article/index'
-import { Counter, CounterContainer } from 'counter/index'
+import { Counter, CounterContainer,CounterSliceContainer } from 'counter/index'
+import { TodoApp } from 'todos/index'
 
 import 'App.css';
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Route exact path='/' component={ Home }/>
-
+      
       <Route exact path='/board/news' component={ News }/>
       <Route exact path='/board/seoul-cctv' component={ SeoulCCTV }/>
       
@@ -27,7 +28,10 @@ function App() {
      
       <Route exact path='/counter/counter' component={ Counter }/>
       <Route exact path='/counter/redux-counter' component={ CounterContainer }/>
-    </div>
+      <Route exact path='/counter/counter-slice' component={ CounterSliceContainer }/>
+      
+      <Route exact path='/todos/app' component={TodoApp}/>    
+      </div>
   );
 }
 
